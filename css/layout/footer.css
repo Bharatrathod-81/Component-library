@@ -1,0 +1,8 @@
+.footer-items{
+    display: flex;
+    justify-content: center;
+    padding: 4rem;
+    background-color: black;
+    color: var(--text-color);
+    gap: 5rem;
+}

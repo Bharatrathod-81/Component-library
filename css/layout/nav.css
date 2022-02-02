@@ -1,0 +1,19 @@
+.nav-body{
+    background-color: var(--primary-color);
+    padding: 0.5rem;
+}
+
+.list-col-left{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem;
+}
+.list-col-right{
+    display: flex;
+    margin-left: auto;
+    width: 20rem;
+    gap: 1rem;
+}
+.atribute{
+    color: var(--text-color);
+}

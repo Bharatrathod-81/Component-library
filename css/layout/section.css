@@ -1,0 +1,17 @@
+section{
+    display: flex;
+    justify-content: center;
+}
+.para{
+    width: 50%;
+}
+.button1{
+    background-color: var(--primary-color);
+    padding: 2rem;
+    border-radius: 2rem;
+}
+.button2{
+    border: 2px solid var(--primary-color);
+    padding: 2rem;
+    border-radius: 2rem;
+}

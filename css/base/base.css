@@ -1,0 +1,38 @@
+html{
+    font-size: 62.5% ;
+}
+:root{
+    --primary-color: #5f04c7;
+    --secondary-color: #bdbfc2;
+    --text-color:#F3F4F6;
+    --hover-color:#080808;
+    }
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Roboto', sans-serif;
+    color:var(--alt-text-color);
+}
+nav{
+    margin:0;
+    padding:0;
+}
+*{
+    padding:0;
+    margin:0;
+}
+button{
+    outline:none;
+    border:none;
+}
+ol,ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+@media screen and (max-width: 1000px){
+    .img1{
+        width: 80%;
+    }
+}
