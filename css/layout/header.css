@@ -1,10 +1,12 @@
 header{
     text-align: center;
+    font-size: larger;
 }
 .divtext{
     color: var(--primary-color );
     display: inline-block;
 }
 .img1{
+    margin: 2rem;
    border-radius: 2rem; 
 }

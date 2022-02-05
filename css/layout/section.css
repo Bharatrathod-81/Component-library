@@ -4,14 +4,19 @@ section{
 }
 .para{
     width: 50%;
+    font-size: medium;
+    margin-bottom: 2rem;
 }
 .button1{
     background-color: var(--primary-color);
     padding: 2rem;
     border-radius: 2rem;
+    margin: 2rem;
 }
 .button2{
+    font-size: large;
     border: 2px solid var(--primary-color);
     padding: 2rem;
     border-radius: 2rem;
+    margin: 2rem;
 }
