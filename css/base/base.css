@@ -36,3 +36,13 @@ a{
         width: 80%;
     }
 }
+@media screen and (max-width: 967px){
+    iframe{
+        display: none;
+    }
+}
+@media screen and (max-width: 612px){
+    .sideBar{
+        display: none;
+    }
+}

@@ -1,23 +1,27 @@
 .nav-body{
     position: sticky;
+    box-sizing: border-box;
     width: 100%;
     top: 0%;
     z-index: 1;
     background-color: var(--primary-color);
-    padding: 0.5rem;
+    padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 .list-col-left{
     display: flex;
     flex-wrap: wrap;
+    gap: 2rem;
     margin: 1rem;
 }
 .list-col-right{
     display: flex;
     margin-left: auto;
-    width: 20rem;
-    gap: 1rem;
+    width: 10rem;
+    gap: 2rem;
 }
 .atribute{
     color: var(--text-color);
+    font-size: large;
 }

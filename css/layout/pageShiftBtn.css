@@ -1,5 +1,7 @@
 .pagesShift{
+    font-size: large;
     display: flex;
     justify-content: space-between;
     padding: 4rem;
+    width: 70%;
 }
