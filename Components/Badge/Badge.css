@@ -22,7 +22,7 @@
     bottom: 3%;
     background-color: green;
     border-radius: 3rem;
-    width: 20%;
+    width: 17%;
     height: 1.5vh;
 }
 .upOnlineBadge{
@@ -31,7 +31,7 @@
     top: 3%;
     background-color: green;
     border-radius: 3rem;
-    width: 20%;
+    width: 17%;
     height: 1.5vh;
 }
 .upOfflineBadge{
@@ -40,7 +40,7 @@
     top: 3%;
     background-color: red;
     border-radius: 3rem;
-    width: 20%;
+    width: 17%;
     height: 1.5vh;
 }
 .offlineBadge{
@@ -49,7 +49,7 @@
     bottom: 3%;
     background-color: red;
     border-radius: 3rem;
-    width: 20%;
+    width: 17%;
     height: 1.5vh;
 }
 .Badge1{
@@ -60,7 +60,7 @@
     right: 0%;
     background-color: blue;
     padding: 0.5rem;
-    border-radius: 1rem;   
+    border-radius: 1rem; 
 }
 .Badge2{
     text-align: center;
@@ -80,6 +80,7 @@
     right: 0%;
     background-color: rgb(0, 238, 255);
     padding: 0.8rem;
-    border-radius: 1.5rem;   
+    border-radius: 1.5rem; 
+    height: 1vh;  
 }
 
