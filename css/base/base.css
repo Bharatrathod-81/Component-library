@@ -42,6 +42,12 @@ a{
     }
 }
 @media screen and (max-width: 612px){
+    html{
+        font-size: 7px;
+    }
+    .alert{
+        font-size: 10px;
+    }
     .sideBar{
         display: none;
     }
