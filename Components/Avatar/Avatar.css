@@ -1,20 +1,32 @@
+.itemsBlock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
 .avatar{
-    width: 70px;
-    height: 8vh;
-    border-radius: 50rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
     margin: 0.5rem;
-    align-self: center;
 }
+
+
 .small{
-    width: 60px;
-    height: 7vh;
+    width: 6rem;
+    height: 6rem;
 }
+
+
 .large{
-    width: 90px;
-    height: 11vh;
+    width: 9rem;
+    height: 9rem;
 }
+
+
 .square{
-    width: 80px;
-    height: 10vh;
+    width: 9rem;
+    height: 9rem;
     border-radius: 0.5rem;
 }
