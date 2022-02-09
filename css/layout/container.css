@@ -19,6 +19,8 @@
     width: 100%;
 }
 .itemsBlock{
+    display: flex;
+    justify-content: center;
     width: 70%;
     gap: 2rem;
     background-color: rgb(231, 222, 210);
