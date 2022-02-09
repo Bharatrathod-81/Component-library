@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input</title>
+    <link rel="stylesheet" href="Input.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav-body">
+        <ul class="list-col-left">
+            <li><a class="atribute" href="/">Home</a></li>
+            <li><a class="atribute" href="./Components/Avatar/Avatar.html">Documentation</a></li>
+            <ul class="list-col-right">
+                <li><a class="atribute" href="#"><i class="fa fa-github"></i></a></li>
+                <li><a class="atribute" href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a class="atribute" href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="sideBar">
+            <h1 class="heading">components</h1>
+            <ul class="CompoItems">
+                <li class="componentlist"><a href="/Components/Avatar/Avatar.html">Avatar</a></li>
+                <li class="componentlist"><a href="/Components/Badge/Badge.html">Badge</a></li>
+                <li class="componentlist"><a href="/Components/Alert/Alert.html">Alert</a></li>
+                <li class="componentlist"><a href="/Components/buttons/Button.html">Button</a></li>
+                <li class="componentlist"><a href="/Components/Card/Card.html">Card</a></li>
+                <li class="componentlist"><a href="/Components/Images/image.html">Image</a></li>
+                <li class="componentlist"><a href="Input.html">Input</a></li>
+                <li class="componentlist"><a href="/Components/Text Utility/Text-utility.html">Text Utilities</a></li>
+                <li class="componentlist"><a href="/Components/List/List.html">List</a></li>
+                <li class="componentlist"><a href="/Components/Navigation/Navigation.html">Navigation</a></li>
+                <li class="componentlist"><a href="/Components/Snackbar/Snackbar.html">Snackbar</a></li>
+            </ul>
+        </div>
+        <div class="discriptionBar">
+            <h1 class="margin2rem">Input</h1>
+            <p class="para1">Inputs are very important on web page. User can 
+                interact with the server through helf of inputs
+            </p>
+            <hr>
+            <h3 class="margin2rem">Normal Input</h3>
+            <div class="itemsBlock margin2rem">
+                <label for="userName">USER NAME</label>
+                <input class="user-name input" type="text">
+                <label for="user-lastname">USER LASTNAME</label>
+                <input class="user-lastname input" type="text">
+            </div>
+            <br>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522itemsBlock%2520margin2rem%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522userName%2522%253EUSER%2520NAME%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522user-name%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522%2522%253EUSER%2520LASTNAME%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522user-lastname%2522%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E"
+                style="width: 515px; height: 283px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <hr>
+            <h3 class="margin2rem">Textbox</h3>
+            <div class="itemsBlock margin2rem ">
+                <label for="textarea">Textarea</label>
+                <input class="textarea input" type="text">
+            </div>
+            <br>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522itemsBlock%2520margin2rem%2520%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522textarea%2522%253ETextarea%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522textarea%2520input%2522%2520type%253D%2522text%2522%253E%250A%253C%252Fdiv%253E"
+                style="width: 523px; height: 245px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <h3 class="margin2rem">Validation and Error Input</h3>
+            <div class="itemsBlock margin2rem">
+                <label for="userName">Validation</label>
+                <input class="valid input" type="text">
+                <small class="correct">Correct Password</small>
+                <label for="user-lastname">Error</label>
+                <input class="error input" type="text">
+                <small class="incorrect">Password incorrect</small>
+            </div>
+            <br>
+            <iframe
+                src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=false&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522itemsBlock%2520margin2rem%2522%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522userName%2522%253EValidation%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522valid%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522correct%2522%253ECorrect%2520Password%253C%252Fsmall%253E%250A%2520%2520%2520%2520%253Clabel%2520for%253D%2522user-lastname%2522%253EError%253C%252Flabel%253E%250A%2520%2520%2520%2520%253Cinput%2520class%253D%2522error%2520input%2522%2520type%253D%2522text%2522%253E%250A%2520%2520%2520%2520%253Csmall%2520class%253D%2522incorrect%2522%253EPassword%2520incorrect%253C%252Fsmall%253E%250A%253C%252Fdiv%253E"
+                style="width: 599px; height: 320px; border:0; transform: scale(1); overflow:hidden;"
+                sandbox="allow-scripts allow-same-origin">
+            </iframe>
+            <br>
+            <ul class="pagesShift">
+                <li><a href="/Components/Images/image.html"><i class="fa fa-exchange"></i> image</a></li>
+                <li><a href="/Components/Text Utility/Text-utility.html">Text Utilities <i class="fa fa-exchange"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

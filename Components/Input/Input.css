@@ -1,0 +1,42 @@
+.itemsBlock{
+    display: flex ;
+    flex-direction: column ;
+    text-align: start;
+    font-size: large;
+}
+.input{
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid rgb(187, 185, 185);
+}
+.textarea{
+    box-sizing: border-box;
+    height: 12vh;
+    width: 100%;
+}
+.input:focus{
+    outline-color: rgb(56, 201, 56);
+}
+.correct{
+    color:rgb(56, 201, 56) ;
+}
+.error:focus{
+    outline-color: red ;
+}
+.incorrect{
+    color: red;
+}
+@media screen and (max-width:355px){
+    .itemsBlock{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:324px){
+    .user-name,
+    .user-lastname,
+    .error,
+    .valid{
+        width: 20rem ;
+    }
+}
