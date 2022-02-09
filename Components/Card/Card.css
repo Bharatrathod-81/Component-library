@@ -36,7 +36,8 @@
     flex-wrap: wrap;
 }
 
-.horizontalLink{
+.horizontalLink,
+.link{
     padding: 0.5rem;
     font-weight: bold;
 }
