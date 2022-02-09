@@ -6,16 +6,19 @@
     border-radius: 1rem;
 
 }
+
 .cardContent{
     position: relative;
     background-color: gainsboro;
     border-radius: 1rem;
     width: 100%;
 }
+
 .cardImg{
     border-radius: 1rem 1rem 0 0;
     width: 100%;  
 }
+
 .textContainer{
     display: flex;
     flex-direction: column;
@@ -24,6 +27,7 @@
     height: 13vh;
     padding-left: 1rem;
 }
+
 .cardFooter{
     display: flex;
     margin: 1rem ;
@@ -31,28 +35,35 @@
     justify-content: space-around;
     flex-wrap: wrap;
 }
-a{
+
+.horizontalLink{
     padding: 0.5rem;
     font-weight: bold;
 }
+
 a:hover,.cardDismisBtn:hover{
     background-color: rgb(180, 193, 194);
 }
+
 a:active,.cardDismisBtn:active{
     background-color: white;
     color: black;
 }
+
 a:nth-child(3),a:nth-child(4){
     font-size: 1.8rem;
     color: gray;
 }
+
 a:nth-child(3):active {
     color: black;
 }
+
 a:nth-child(5){
     font-size: 1.8rem;
     color: gray;
 }
+
 .cardBadge{
     position: absolute;
     font-weight: bold;
@@ -61,6 +72,7 @@ a:nth-child(5){
     border-top-right-radius: 1rem;
     background-color: red;
 }
+
 .cardDismisBtn{
     display: flex;
     justify-content: center;
@@ -75,10 +87,12 @@ a:nth-child(5){
     height: 5rem;
     border-radius: 50%;
 }
+
 .overlay-msge{
    font-size: 28px; 
 
 }
+
 .overlayBody{
     position: absolute;
     background-color: rgb(206, 200, 200);
@@ -88,17 +102,23 @@ a:nth-child(5){
     opacity: 35%;
     z-index: 1;
 }
+
 .horizontal-card{
     display: flex;
     flex-wrap: wrap;
 }
+
 .horizontal-cardImg{
     width: 60%;
     border-radius: 1rem;
 }
-.horizontalLink{
-    margin: 11px;
+
+.horizontalCardFooter{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
 }
+
 .car-shadow{
     box-shadow: 1px 1px 20px 11px rgb(167, 165, 165);
 }
