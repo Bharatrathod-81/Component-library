@@ -9,6 +9,11 @@
     cursor: pointer;
 }
 
+.itemsBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .cornerRadiousBtn{
     border-radius: 0.5rem;
 }
