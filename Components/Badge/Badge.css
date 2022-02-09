@@ -3,84 +3,106 @@
     justify-content: center;
     flex-wrap: wrap;
 }
+
 .avatar{
     width: 70px;
     height: 9vh;
     border-radius: 38rem;
     align-self: center;
 }
+
 .icons{
     font-size: 50px;
 }
+
 .badge{
     position: relative;
     height: 9vh;
 }
+
 .onlineBadge{
     position: absolute;
     right: 3%;
     bottom: 3%;
     background-color: green;
-    border-radius: 3rem;
-    width: 17%;
-    height: 1.5vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 2rem;
+    height: 2rem;
 }
+
 .upOnlineBadge{
     position: absolute;
     right: 3%;
-    top: 3%;
+    bottom: 3%;
     background-color: green;
-    border-radius: 3rem;
-    width: 17%;
-    height: 1.5vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 2rem;
+    height: 2rem;
 }
+
 .upOfflineBadge{
     position: absolute;
     right: 3%;
-    top: 3%;
+    bottom: 3%;
     background-color: red;
-    border-radius: 3rem;
-    width: 17%;
-    height: 1.5vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 2rem;
+    height: 2rem;
 }
+
 .offlineBadge{
     position: absolute;
     right: 3%;
     bottom: 3%;
     background-color: red;
-    border-radius: 3rem;
-    width: 17%;
-    height: 1.5vh;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 2rem;
+    height: 2rem;
 }
+
 .Badge1{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     color: white;
-    top: 0%;
+    top: -8%;
     right: 0%;
     background-color: blue;
-    padding: 0.5rem;
-    border-radius: 1rem; 
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
 }
+
 .Badge2{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     color: white;
-    top: 0%;
+    top: -8%;
     right: 0%;
-    background-color: green;
-    padding: 0.5rem;
-    border-radius: 1rem;   
+    background-color: rgb(6, 153, 42);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;   
 }
+
 .Badge3{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     position: absolute;
     color: white;
-    top: 0%;
+    top: -8%;
     right: 0%;
-    background-color: rgb(0, 238, 255);
-    padding: 0.8rem;
-    border-radius: 1.5rem; 
-    height: 1vh;  
+    background-color: rgba(207, 187, 6, 0.911);
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;  
 }
 
