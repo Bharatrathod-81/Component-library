@@ -34,7 +34,7 @@
 .upOnlineBadge{
     position: absolute;
     right: 3%;
-    bottom: 3%;
+    top: 3%;
     background-color: green;
     border-radius: 50%;
     border: 2px solid white;
@@ -45,7 +45,7 @@
 .upOfflineBadge{
     position: absolute;
     right: 3%;
-    bottom: 3%;
+    top: 3%;
     background-color: red;
     border-radius: 50%;
     border: 2px solid white;
