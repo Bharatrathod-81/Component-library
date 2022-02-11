@@ -1,0 +1,18 @@
+.Text-left{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.x-small-text{
+    font-size: 9px;
+}
+.xx-small-text{
+    font-size: 8px;
+}
+.Gray{
+    color: gray;
+}
+.Center{
+    display: flex;
+    align-items: center;
+}
