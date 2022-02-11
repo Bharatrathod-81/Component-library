@@ -1,2 +1,11 @@
 @import url('/Components/Avatar/Avatar.css');
 @import url('/Components/Badge/Badge.css');
+@import url('/Components/Alert/Alert.html');
+@import url('/Components/buttons/Button.html');
+@import url('/Components/Card/Card.html');
+@import url('/Components/Images/image.html');
+@import url('/Components/Input/Input.html');
+@import url('/Components/List/List.html');
+@import url('/Components/Navigation/Navigation.html');
+@import url('/Components/Snackbar/Snackbar.html');
+@import url('/Components/Text-Utility/Text-utility.html');
