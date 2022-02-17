@@ -16,6 +16,7 @@
 }
 
 .badge{
+    display: flex;
     position: relative;
     height: 9vh;
 }
