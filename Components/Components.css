@@ -9,3 +9,8 @@
 @import url('/Components/Navigation/Navigation.html');
 @import url('/Components/Snackbar/Snackbar.html');
 @import url('/Components/Text-Utility/Text-utility.html');
+
+
+html{
+    font-size: 62.5%;
+}
