@@ -5,9 +5,10 @@
 }
 
 .avatar{
-    width: 70px;
-    height: 9vh;
-    border-radius: 38rem;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    margin: 0.5rem;
     align-self: center;
 }
 
@@ -23,46 +24,46 @@
 
 .onlineBadge{
     position: absolute;
-    right: 3%;
-    bottom: 3%;
+    right: 9%;
+    bottom: 9%;
     background-color: green;
     border-radius: 50%;
     border: 2px solid white;
-    width: 2rem;
-    height: 2rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 
 .upOnlineBadge{
     position: absolute;
-    right: 3%;
-    top: 3%;
+    right: 13%;
+    top: 13%;
     background-color: green;
     border-radius: 50%;
     border: 2px solid white;
-    width: 2rem;
-    height: 2rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 
 .upOfflineBadge{
     position: absolute;
-    right: 3%;
-    top: 3%;
+    right: 13%;
+    top: 13%;
     background-color: red;
     border-radius: 50%;
     border: 2px solid white;
-    width: 2rem;
-    height: 2rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 
 .offlineBadge{
     position: absolute;
-    right: 3%;
-    bottom: 3%;
+    right: 9%;
+    bottom: 9%;
     background-color: red;
     border-radius: 50%;
     border: 2px solid white;
-    width: 2rem;
-    height: 2rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 
 .Badge1{
