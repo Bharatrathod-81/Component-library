@@ -31,3 +31,5 @@ Copy and paste the code in the head tag of your HTML document. So that you can s
 - [Lists](https://agitated-mirzakhani-e75d2b.netlify.app/components/list/list)
 - [Navigation](https://agitated-mirzakhani-e75d2b.netlify.app/components/navigation/navigation)
 - [Snackbar](https://agitated-mirzakhani-e75d2b.netlify.app/components/snackbar/snackbar)
+
+# Author: [Bharat Rathod](https://github.com/Bharatrathod-81)
