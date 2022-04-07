@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="model.css">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav class="nav-body">
+        <ul class="list-col-left">
+            <li><a class="atribute" href="/">Home</a></li>
+            <li><a class="atribute" href="./Components/Avatar/Avatar.html">Documentation</a></li>
+            <ul class="list-col-right">
+                <li><a class="atribute" href="#"><i class="fa fa-github"></i></a></li>
+                <li><a class="atribute" href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a class="atribute" href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="sideBar">
+            <h1 class="heading">components</h1>
+            <ul class="CompoItems">
+                <li class="componentlist"><a href="/Components/Avatar/Avatar.html">Avatar</a></li>
+                <li class="componentlist"><a href="/Components/Badge/Badge.html">Badge</a></li>
+                <li class="componentlist"><a href="/Components/Alert/Alert.html">Alert</a></li>
+                <li class="componentlist"><a href="/Components/buttons/Button.html">Button</a></li>
+                <li class="componentlist"><a href="/Components/Card/Card.html">Card</a></li>
+                <li class="componentlist"><a href="/Components/Image/image.html">Image</a></li>
+                <li class="componentlist"><a href="/Components/Input/Input.html">Input</a></li>
+                <li class="componentlist"><a href="/Components/Text-Utility/Text_utility.html">Text Utilities</a></li>
+                <li class="componentlist"><a href="/Components/List/List.html">List</a></li>
+                <li class="componentlist"><a href="/Components/Navigation/Navigation.html">Navigation</a></li>
+                <li class="componentlist"><a href="/Components/Snackbar/Snackbar.html">Snackbar</a></li>
+                <li class="componentlist"><a href="/Components/model/model.html">Model</a></li>
+            </ul>
+        </div>
+        <div class="discriptionBar">
+            <h1 class="margin2rem">Modal</h1>
+            <p class="para1">Modals are built with HTML, CSS, and JavaScript. They’re positioned over everything else in the
+                document. Clicking on the modal “backdrop” will automatically close the modal.
+            </p>
+            <hr>
+            <button class="model-btn">Model</button>
+            <div class="pop-up">
+                <div class="model-bar">
+                    <div class="model-header">
+                        <h1>Model</h1>
+                        <button class="cancel-btn">X</button>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium odit inventore dolores voluptas
+                        incidunt veritatis, possimus corrupti animi sint molestias ipsam neque cum assumenda consectetur
+                        ratione veniam repellendus adipisci ducimus.</p>
+                    <button class="save-btn">SAVE</button>
+                </div>
+                <hr>
+                <div class="saved-toast">
+                    <h3>Saved Successful !!!</h3>
+                </div>
+            </div>
+            <div class="code-container">
+                <br>
+                <iframe
+                    src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=seti&wt=none&l=auto&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=14px&lh=133%25&si=false&es=2x&wm=false&code=%253Cdiv%2520class%253D%2522model-bar%2522%253E%250A%2509%253Cdiv%2520class%253D%2522model-header%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ch1%253EModel%253C%252Fh1%253E%250A%2520%2520%2520%2520%2509%253Cbutton%2520class%253D%2522cancel-btn%2522%253EX%253C%252Fbutton%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cp%253ELorem%2520ipsum%2520dolor%2520sit.%253C%252Fp%253E%250A%2509%253Cbutton%2520class%253D%2522save-btn%2522%253ESAVE%253C%252Fbutton%253E%250A%253C%252Fdiv%253E"
+                    style="width: 529px; height: 341px; border:0; transform: scale(1); overflow:hidden;"
+                    sandbox="allow-scripts allow-same-origin">
+                </iframe>
+            </div>
+            <br>
+            <ul class="pagesShift">
+                <li><a href="/Components/Snackbar/Snackbar.html"><i class="fa fa-exchange"></i> Snackbar</a></li>
+                <li><a href="">Slider <i class="fa fa-exchange"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+<script>
+
+    const showModel = document.querySelector(".model-btn");
+    const cancelBtn = document.querySelector(".cancel-btn");
+    const modelBar = document.querySelector(".model-bar");
+    const saveBtn = document.querySelector(".save-btn");
+    const savedToast = document.querySelector(".saved-toast");
+
+    showModel.addEventListener("click", () => {
+        modelBar.style.display = "inherit";
+    })
+
+    cancelBtn.addEventListener("click", () => {
+        modelBar.style.display = "none";
+    })
+
+    saveBtn.addEventListener("click", () => {
+        savedToast.style.display = "inherit";
+        setTimeout(() => {
+            savedToast.style.display = "none";
+        }, 2000)
+    })
+
+</script>
+</html>
