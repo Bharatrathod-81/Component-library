@@ -1,0 +1,69 @@
+
+.container {
+    margin-top: 6rem;
+    padding: 1rem;
+    text-align: center;
+}
+
+.model-btn {
+    padding:1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+
+.pop-up{
+    border: 2px solid green;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 29vh;
+    margin: 1rem;
+    border-radius: 0.5rem;
+}
+
+.model-bar {
+    display: flex;
+    flex-direction: column;
+    display: none;
+    border: 2px solid blue;
+    width: 30rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+}
+
+
+.model-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cancel-btn {
+    font-weight: bolder;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin: 1rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.save-btn {
+    padding: .5rem 1rem;
+    margin-top: .5rem;
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+.saved-toast {
+    display: none;
+    border: 2px solid;
+    width: 18rem;
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+}
