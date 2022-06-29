@@ -1,9 +1,18 @@
-.primary,
+.primary{
+    padding: 1.5rem 3rem;
+    margin: 1.5rem;
+    background-color: var(--primary-BGcolor);
+    color: var(--text-color);
+    font-size: larger;
+    font-weight: bold;
+    cursor: pointer;
+}
+
 .Link{
     padding: 1.5rem 3rem;
     margin: 1.5rem;
-    background-color: rgb(24, 130, 252);
-    color: white;
+    background-color: var(--link-BGcolor);
+    color: var(--text-color);
     font-size: larger;
     font-weight: bold;
     cursor: pointer;
@@ -27,14 +36,9 @@
 }
 
 .linkBtn{
-    color: white;
+    color: var(--text-color);
 }
 
-.fullRadiousBtn:active,
-.cornerRadiousBtn:active,
-.normalBtn:active{
-    background-color: rgb(7, 71, 145);
-}
 
 .fullRadiousBtn:hover,
 .cornerRadiousBtn:hover,
@@ -43,80 +47,80 @@
 .checkBtn:hover,
 .downloadBtn:hover,
 .plusBtn:hover{
-    box-shadow: 5px 5px 5px  rgb(133, 133, 133);
+    box-shadow: 5px 5px 5px  var(--Btn-hover-color);
 }
 
 .iconsBtn{
     font-size: 30px;
-    background-color: rgb(231, 222, 210);
+    background-color: var(--iconsBtn);
     padding: 1.5rem;
     border-radius: 2rem;
     margin: 1rem;
 }
 
 .heartBtn{
-    border: 1px solid rgb(192, 63, 106);
-    color: rgb(165, 3, 57);
+    border: 1px solid var(--heartBtn-Border-color);
+    color: var(--heartBtn-color);
 }
 
 .heartBtn:hover,.heartBtn:focus{
-    background-color: rgb(228, 161, 184);
+    background-color: var(--heartBtn-hover-color);
 }
 
 .powerBtn{
-    border: 1px solid rgb(192, 57, 64);
-    color: rgb(160, 2, 10);
+    border: 1px solid var(--powerBtn-border-color);
+    color: var(--powerBtn-color);
 }
 
 .powerBtn:hover,.powerBtn:focus{
-    background-color:rgb(233, 148, 151);
+    background-color:var(--powerBtn-hover-color);
 }
 
 .callBtn{
-    border: 1px solid rgb(81, 223, 81);
-    color: rgb(1, 100, 1);
+    border: 1px solid var(--callBtn-border-color);
+    color: var(--callBtn-color);
 }
 
 .callBtn:hover,.callBtn:focus{
-    background-color:rgb(182, 238, 182);
+    background-color:var(--callBtn-hover-color);
 }
 
 .sendBtn{
-    border: 1px solid rgb(77, 180, 228);
-    color: rgb(2, 91, 133);
+    border: 1px solid var(--sendBtn-border-color);
+    color: var(--sendBtn-color);
 }
 
 .sendBtn:hover,.sendBtn:focus{
-    background-color:rgb(170, 214, 235);;
+    background-color:var(--sendBtn-hover-color);
 }
 
 .floatingBtn{
     font-size: 25px;
-    background-color: rgb(231, 222, 210);
+    background-color: var(--floatBtn-color);
     padding: 2rem 2.3rem;
     border-radius: 5rem;
     margin: 1rem;
 }
 
 .checkBtn{
-    background-color: rgb(236, 31, 31);
+    background-color: var(--checkBtn-color);
 }
 
 .downloadBtn{
-    background-color: rgb(82, 218, 77);
+    background-color: var(--downloadBtn-color);
 }
 
 .planeBtn{
-    background-color: rgb(68, 185, 194);
+    background-color: var(--planeBtn-color);
 }
 
 .plusBtn{
-    background-color: rgb(250, 89, 142);
+    background-color: var(--plusBtn-color);
 }
 
 .checkBtn:focus,
 .downloadBtn:focus,
 .planeBtn:focus,
 .plusBtn:focus{
-    color: rgb(8, 136, 255);
+    color: var(--Btn-focus-color);
 }
